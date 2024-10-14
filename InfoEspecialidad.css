@@ -1,0 +1,34 @@
+
+/* Efecto al activar*/
+.especialidad.active {
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: start;
+  justify-content:center;
+}
+
+.especialidad.active img{
+  max-width: 250px;
+}
+.especialidad.active h2{
+  padding: 0 30px;
+  text-align: center;
+  font-size: 30px;
+}
+.sublist li{
+  list-style: decimal;
+}
+
+.especialidad.active li{
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.texto {
+  display: none; /* Ocultar el texto por defecto */
+}
+
+.especialidad.active .texto {
+  padding-top: 10px;
+  display: block; /* Mostrar el texto cuando la clase 'active' esté presente */
+}

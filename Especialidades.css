@@ -1,0 +1,40 @@
+body {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.area-especialidad {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.area-especialidad h1 {
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    margin-top: 25px;
+    padding: 0 10px;
+}
+
+.conjunto-especialidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    
+}
+.especialidad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+    font-family: "Poppins", sans-serif;
+}
+.especialidad img {
+    max-width: 200px;
+}
+
+
+
