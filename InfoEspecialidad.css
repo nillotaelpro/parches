@@ -1,25 +1,32 @@
-
 /* Efecto al activar*/
 .especialidad.active {
   flex-wrap: wrap;
   flex-direction: row;
   text-align: start;
-  justify-content:center;
+  justify-content: center;
+  filter: brightness(100%);
 }
 
-.especialidad.active img{
+.especialidad.active img {
   max-width: 250px;
 }
-.especialidad.active h2{
+.especialidad.active h2 {
   padding: 0 30px;
   text-align: center;
   font-size: 30px;
 }
-.sublist li{
+.sublist-guion li {
+  list-style: square;
+}
+
+.sublist-alpha li {
+  list-style: lower-alpha;
+}
+.sublist-number li {
   list-style: decimal;
 }
 
-.especialidad.active li{
+.especialidad.active li {
   margin-left: 30px;
   margin-right: 20px;
 }
