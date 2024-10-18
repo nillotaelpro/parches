@@ -8,9 +8,9 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        manada: resolve(__dirname, 'Manada.html'),
-        tropa: resolve(__dirname, 'Tropa.html'),
-        comunidadyClan: resolve(__dirname, 'ComunidadyClan.html'),
+        manada: resolve(__dirname, 'manada.html'),
+        tropa: resolve(__dirname, 'tropa.html'),
+        comunidadyClan: resolve(__dirname, 'comunidadyclan.html'),
       }
     }
   },
