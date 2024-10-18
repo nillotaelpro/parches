@@ -18,9 +18,13 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Fix paths in index.html
+      - name: Fix paths in all HTML files
         run: |
-          sed -i 's|/parches/|/|g' ./dist/index.html
+          for file in ./dist/*.html; do
+            sed -i 's|href="/|href="/parches/|g' "$file"
+            sed -i 's|src="/|src="/parches/|g' "$file"
+            sed -i 's|src="/especialidades/|src="/parches/especialidades/|g' "$file"
+          done
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
