@@ -1,3 +1,9 @@
+import './styles/reset.css';
+import './styles/especialidades.css';
+import './styles/header.css';
+import './styles/info_especialidad.css';
+import './styles/dark_or_white.css';
+
 
         // Seleccionamos el campo de búsqueda y las especialidades
         const searchInput = document.getElementById('search');
