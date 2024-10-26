@@ -27,15 +27,18 @@ body {
   margin: 10px;
   padding: 10px;
   text-align: center;
+  background-color: rgb(0, 3, 15);
 
   font-family: "Poppins", sans-serif;
 }
 
 .especialidad img {
+  
+  cursor: pointer;
   max-width: 200px;
 }
 
-.especialidad:hover {
+.especialidad img:hover {
   filter: brightness(70%);
 }
 
