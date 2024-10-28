@@ -1,0 +1,28 @@
+.contenido {
+    display: none;
+}
+.color_CT h2, .color_CT h3{
+    color: #ce7e00;
+}
+.color_VN h2, .color_VN h3{
+    color: #00cc00;
+}
+.color_CT h2:hover, .color_VN h2:hover{
+    cursor: pointer;
+    font-size: 25px;
+}
+h2,h3,li,p {
+    font-family: "Poppins", sans-serif;
+}
+li {
+    margin-left: 25px;
+    list-style: square;
+}
+.text{
+    text-align: left;
+    margin: 0 80px;
+}
+.requisito{
+    font-size: 22px;
+    font-weight: bold;
+}

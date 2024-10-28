@@ -31,21 +31,24 @@ body {
 
   font-family: "Poppins", sans-serif;
 }
-
-.especialidad img {
-  
-  cursor: pointer;
+img {
   max-width: 200px;
 }
-
-.especialidad img:hover {
-  filter: brightness(70%);
-}
-
 h3 {
   font-size: 20px;
 }
 
 li {
   font-size: 17.5px;
+}
+
+.sublist-alpha li {
+  list-style: lower-alpha;
+}
+.sublist-number li {
+  list-style: decimal;
+}
+
+.sublist-guion li {
+  list-style: square;
 }
