@@ -4,10 +4,10 @@ import { resolve } from 'path'
 process.env.BROWSER = "opera GX"
 
 export default defineConfig({
-  root: './', // define la raíz del proyecto si no está en la carpeta `src`
-  publicDir: 'public', // carpeta pública con archivos estáticos
+  root: './', 
+  publicDir: 'public', 
   build: {
-    outDir: 'dist', // define la carpeta de salida para los archivos de producción
+    outDir: 'dist', 
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
@@ -18,7 +18,7 @@ export default defineConfig({
     }
   },
   server: {
-    port: 3000, // puerto para el servidor de desarrollo
+    port: 3000,
     open: true,
   },
 });
