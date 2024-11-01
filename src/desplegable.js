@@ -1,8 +1,4 @@
-import './styles/reset.css';
-import './styles/especialidades.css';
 import './styles/header.css';
-import './styles/info_especialidad.css';
-import './styles/dark_or_white.css';
 
 // Función para alternar la visibilidad del menú desplegable
 function toggleDropdown(dropdownButton) {

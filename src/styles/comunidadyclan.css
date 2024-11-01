@@ -1,26 +1,43 @@
 .contenido {
+
     display: none;
+    text-align: left;
+
 }
 .color_CT h2, .color_CT h3{
+    -webkit-text-stroke: 1.5px #9f6200;
     color: #ce7e00;
 }
 .color_VN h2, .color_VN h3{
+  -webkit-text-stroke: 1.5px #006a00;
     color: #00cc00;
 }
-.color_CT h2:hover, .color_VN h2:hover{
+.text h2:hover , .texto h2:hover{
     cursor: pointer;
-    font-size: 25px;
+    font-size: 26px;
 }
 h2,h3,li,p {
     font-family: "Poppins", sans-serif;
 }
-li {
+.text li , .texto li{
     margin-left: 25px;
     list-style: square;
 }
-.text{
+.contenet_text{
     text-align: left;
     margin: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text h2 , .texto h2{
+    
+    margin: 10px;
+    padding: 10px;
+
+    background-color: rgb(0, 3, 15);
+    text-align: center;
 }
 .requisito{
     font-size: 22px;

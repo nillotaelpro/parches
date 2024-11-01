@@ -19,7 +19,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-.especialidad {
+.especialidad ,  .especialidad_noafect {
   display: flex;
   flex-direction: column;
   align-items: center;
